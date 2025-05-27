@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Eventualizando - Pesquisa de Eventos</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>EVENTUALIZANDO</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Busque por evento, artista ou local...">
+            <button>Buscar</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="filters">
+            <h2>Filtros de Pesquisa</h2>
+            <label><input type="checkbox"> Shows</label>
+            <label><input type="checkbox"> Festas</label>
+            <label><input type="checkbox"> Teatro</label>
+            <label><input type="checkbox"> Stand-up</label>
+            <label><input type="checkbox"> Esportivo</label>
+            <label><input type="checkbox"> Infantil</label>
+            <label><input type="checkbox"> Outros</label>
+
+            <label>Cidade</label>
+            <select>
+                <option>Selecione</option>
+                <option>Goiânia</option>
+            </select>
+
+            <label>Data</label>
+            <input type="date">
+            <input type="date">
+
+            <label>Faixa de Preço</label>
+            <input type="number" placeholder="De R$">
+            <input type="number" placeholder="Até R$">
+
+            <label><input type="checkbox"> Presencial</label>
+            <label><input type="checkbox"> Online</label>
+
+            <button>Aplicar Filtros</button>
+            <button>Limpar Filtros</button>
+        </div>
+
+        <div class="results">
+            <div class="card">
+                <img src="https://images.sympla.com.br/6556622f94d62-lg.jpg" alt="Evento">
+                <div class="card-info">
+                    <h3>Jantar beneficente</h3>
+                    <p>📅 30/07/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 80,00</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://uploads.maisgoias.com.br/2023/05/50501022-image.jpg" alt="Evento">
+                <div class="card-info">
+                    <h3>Campus Party</h3>
+                    <p>📅 15/09/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 50,00</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRPJ9Vp_c29jMVIpDVDocS3UdlnFv4X_pPg&s" alt="Evento">
+                <div class="card-info">
+                    <h3>Pecuária</h3>
+                    <p>📅 08/03/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 100,00</p>
+                </div>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
